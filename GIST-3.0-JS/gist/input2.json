@@ -1,0 +1,83 @@
+{
+	"gen_elig_trait": {
+		"trait": "gender",
+		"elig": 0.0
+	},
+	"elig_traits": [
+		{
+			"trait": "hba1c",
+			"kind": "lab",
+			"min": 7.0,
+			"max": 10.0
+		},
+		{
+			"trait": "glucose",
+			"kind": "lab",
+			"min": 126.0,
+			"max": 2000.0
+		},
+		{
+			"trait": "creatanine",
+			"kind": "lab",
+			"min": 0.0,
+			"max": 3.0
+		},
+		{
+			"trait": "ast",
+			"kind": "lab",
+			"min": 0.0,
+			"max": 100.0
+		},
+		{
+			"trait": "alt",
+			"kind": "lab",
+			"min": 0.0,
+			"max": 130.0
+		},
+		{
+			"trait": "alcoholabus",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "basskincan",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "brfeed",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "cancer",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "kidneydis",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "liverdis",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "pregnant",
+			"kind": "cat",
+			"elig": 1.0
+		},
+		{
+			"trait": "substabuse",
+			"kind": "cat",
+			"elig": 1.0
+		}
+	],
+	"age_elig_trait": {
+		"trait": "age",
+		"min": 18.0,
+		"max": 90.0
+	}
+}
