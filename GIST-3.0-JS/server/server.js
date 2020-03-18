@@ -21,9 +21,9 @@ Set the parameters for the conneciton with the Postgres atabase
 
 
 const client = new Client({
-		user: "ys3345",
-		host: "aqua.dbmi.columbia.edu",
-		password: "6u!zoIe1",
+		user: "****",
+		host: "****",
+		password: "****",
 		database: "gist",
 		port: "5432"
 	});
