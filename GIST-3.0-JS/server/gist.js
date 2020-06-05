@@ -257,7 +257,14 @@ function cal_crit(input, pat_row) {
 			*/
 			return (val == 1 && crit.male_allowed == 1) || (val == 2 && crit.female_allowed == 1) ? 1 : 0;
 		} else if (crit.column_name[0] == "m" || crit.column_name[0] == "a") {
-			return val == -1 || (val >= crit.criteria_min && val <= crit.criteria_max) ? 1 : 0;
+			//return val == -1 || (val >= crit.criteria_min && val <= crit.criteria_max) ? 1 : 0;
+
+			/*
+			if the criteria is 'age' or 'measurement', it is necessary to tell whether it is "inclusion" or "exclusion"
+			*/
+			return val == -1 || (val >= crit.criteria_min && val <= crit.criteria_max && crit.criteria_elig_binary == 1 ) ||
+					(val < crit.criteria_min &&  crit.criteria_elig_binary == 0 ) ||
+					(val > crit.criteria_max && crit.criteria_elig_binary == 0 ) ? 1 : 0;
 		} else {
 			return val == crit.criteria_elig_binary ||
 				(crit.criteria_elig_binary == 0 && val == -1)

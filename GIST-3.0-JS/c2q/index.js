@@ -5,11 +5,11 @@ const fs = require("fs");
 
 // CONNECTING TO POSTGRES DATABASE
 const client = new Client({
-	user: "****",
-	host: "****",
-	password: "****",
-	database: "gist",
-	port: "5432"
+	user: "***",
+	host: "***",
+	password: "***",
+	database: "***",
+	port: "***"
 });
 
 client.connect(err => {

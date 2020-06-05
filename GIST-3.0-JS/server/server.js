@@ -21,11 +21,12 @@ Set the parameters for the conneciton with the Postgres atabase
 
 
 const client = new Client({
-		user: "****",
-		host: "****",
-		password: "****",
-		database: "gist",
-		port: "5432"
+		user: "***",
+		host: "***",
+		password: "***",
+		database: "***",
+		port: "***",
+		requestTimeout: 300000
 	});
 
 /*
