@@ -1,5 +1,5 @@
 # GIST
-GIST 3.0: A Fast and Dynamic Population Representativeness Calculation Tool for Clinical Trials 
+GIST 3.0: An Automatic Clinical Trial Generalizability Assessment Framework
 
 # INSTALLATION:
 1.	Download GitHub repository
