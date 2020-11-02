@@ -1,5 +1,6 @@
 # GIST
-GIST 3.0: An Automatic Clinical Trial Generalizability Assessment Framework
+GIST 2.0: A scalable multi-trait metric for quantifying population representativeness of individual clinical studies
+GIST 3.0: An OMOP CDM Based Automatic Clinical Trial Generalizability Assessment Framework
 
 # INSTALLATION:
 1.	Download GitHub repository
