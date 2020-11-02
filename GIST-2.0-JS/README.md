@@ -1,4 +1,4 @@
-# GIST-2.0-JS (Now GIST 3.0)
+# GIST-2.0-JS 
 
 Documentation:
 
