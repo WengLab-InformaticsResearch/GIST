@@ -1,0 +1,14 @@
+{
+	"name": "trial_read",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"libsvm-js": "^0.2.1",
+		"pg": "^7.12.0"
+	}
+}
