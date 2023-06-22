@@ -10,6 +10,6 @@
 	"dependencies": {
 		"execution-time": "^1.4.1",
 		"libsvm-js": "^0.2.1",
-		"pg": "^7.12.0"
+		"pg": "^8.11.0"
 	}
 }
